@@ -1,0 +1,106 @@
+    body {
+        text-align: center;
+        margin: 20px;
+        background-color: burlywood
+    }
+    
+    img {
+        width: 200px;
+        height: 250px;
+        border-radius: 50%;
+        padding: 15px;
+        border-width: thick;
+        border-color: darkmagenta;
+        border-style: ridge
+    }
+    
+    h1 {
+        text-align: center;
+        color: crimson;
+        font-weight: bold;
+        padding-top: 15px;
+    }
+    
+    #divLine {
+        height: 6px;
+        width: 100px;
+        background-color: darkmagenta;
+        margin: 10px auto;
+    }
+    
+    .sectionWelcome {
+        font-size: 30px;
+        font-family: monospace;
+        text-shadow: 2px 2px #e2e833;
+        color: #2ca351;
+        position: relative;
+        padding-bottom: 10px;
+        line-height: 1.8;
+        background: linear-gradient(#ab76cf 0%, #d8ed18 100%);
+    }
+    
+    #About {
+        text-align: justify;
+        line-height: 1.2;
+        color: #bd49eb;
+    }
+    
+    p {
+        font-size: 25px;
+    }
+    
+    .menu {
+        position: fixed;
+        list-style: none;
+        z-index: 10;
+        top: 10px;
+        right: 30px;
+        cursor: pointer;
+    }
+    
+    .links {
+        float: left;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 20px;
+        font-family: 'Courgette', cursive;
+    }
+    
+    .links:hover {
+        background-color: darkviolet;
+    }
+    
+    .article:hover {
+        background-color: cadetblue;
+    }
+    
+    img {
+        transition: transform .2s;
+        width: 500px;
+        height: 500px;
+    }
+    
+    img:hover {
+        transform: scale(0.9);
+    }
+    
+    a {
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    .button {
+        padding: 15px;
+        background-color: darkgoldenrod;
+    }
+    
+    #pContact {
+        font-size: 15px;
+        color: crimson;
+    }
