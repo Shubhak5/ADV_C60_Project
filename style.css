@@ -1,7 +1,8 @@
     body {
         text-align: center;
         margin: 20px;
-        background-color: burlywood
+        background-color: burlywood;
+        position: fixed;
     }
     
     img {
@@ -50,7 +51,7 @@
     }
     
     .menu {
-        position: fixed;
+        position: inherit;
         list-style: none;
         z-index: 10;
         top: 10px;
